@@ -8,8 +8,8 @@ const themeUrl = "https://raw.githubusercontent.com/ItzzExcel/neptune-projects/r
 let style: string | null;
 let styleElement: HTMLStyleElement | null;
 
-// Functions in unloads are called when plugin is unloaded.
-// Used to clean up resources, even listener dispose etc should be added here
+// called when plugin is unloaded.
+// clean up resources
 export const unloads = new Set<LunaUnload>();
 
 function ApplyCSS(style: string): HTMLStyleElement {
@@ -42,7 +42,7 @@ async function HttpGet(url: string): Promise<string | null> {
     }
 }
 
-// Since HttpGet is async, we need to await its result
+
 (async () => {
     style = await HttpGet(themeUrl);
     if (style) {
@@ -56,7 +56,7 @@ unloads.add(() => {
     
     const trackTitleElement = document.querySelector('div[class^="trackTitleContainer"]');
     if (trackTitleElement) {
-        // Note: DOMSubtreeModified is deprecated, but keeping for compatibility
+        // Note: DOMSubtreeModified is deprecated, but i dont care ;)
         // trackTitleElement.removeEventListener('DOMSubtreeModified', onTrackChanged);
     }
 }); 
