@@ -1,6 +1,12 @@
-# Excel's Neptune Projects
+# Excel's Neptune Projects (Archive)
 
-This repository a repository containing my Neptune (TIDAL Modded Client) projects.
+Archive containing my Neptune (TIDAL Modded Client) projects.
+
+<hr>
+
+# For [TidaLuna](https://github.com/meowarex/neptune-projects-fork)  !!!
+## Here -> https://github.com/meowarex/neptune-projects-fork
+Thanks to [meoware](https://github.com/meowarex) for making this awesome port for [TidaLuna](https://github.com/Inrixia/TidaLuna), the modern modded client for TIDAL.
 
 <hr>
 
@@ -12,6 +18,7 @@ This repository a repository containing my Neptune (TIDAL Modded Client) project
 ## Index:
 - [Copy Lyrics](#copy-lyrics)
 - [OLED Theme](#oled-theme)
+- [Clean View (beautiful-lyrics like)](#clean-lyrics)
 
 
 ### Copy Lyrics
@@ -31,9 +38,9 @@ https://raw.githubusercontent.com/ItzzExcel/neptune-projects/refs/heads/main/plu
 https://github.com/user-attachments/assets/15192950-1c4b-44d6-8e42-34ae5d7d1980
 <hr>
 
-### Clean Lyrics (Not fullscreen) 
+### Clean Lyrics
 **(load it as a plugin)**
-
+A beautiful-lyrics like style for the TIDAL Now Playing View
 ```
 https://raw.githubusercontent.com/ItzzExcel/neptune-projects/refs/heads/main/plugins/plugins/not-actual-fullscreen/dist/
 ```
