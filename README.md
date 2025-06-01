@@ -4,8 +4,8 @@ Archive containing my Neptune (TIDAL Modded Client) projects.
 
 <hr>
 
-# For [TidaLuna](https://github.com/meowarex/neptune-projects-fork)  !!!
-## Here -> https://github.com/meowarex/neptune-projects-fork
+# For [TidaLuna](https://github.com/meowarex/TidalLuna-Plugins)  !!!
+## Here -> https://github.com/meowarex/TidalLuna-Plugins
 Thanks to [meoware](https://github.com/meowarex) for making this awesome port for [TidaLuna](https://github.com/Inrixia/TidaLuna), the modern modded client for TIDAL.
 
 <hr>
