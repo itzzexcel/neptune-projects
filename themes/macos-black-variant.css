@@ -48,6 +48,11 @@
     src: url("https://excel.lexploits.top/extra/tidal/LyricsBold.woff2") format("woff2");
 }
 
+[type="button"] > [class*="_text_"]
+{
+    color: white !important;
+}
+
 [class^="followingButton"],
 [title="Unfollow"],
 [title="Follow"],
