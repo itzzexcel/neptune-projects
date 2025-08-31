@@ -212,7 +212,7 @@ button[data-test="close-now-playing"]:hover {
 }
 
 [data-test="navigation-arrows"]>button {
-    color: whreite;
+    color: white;
     background-color: rgb(50, 50, 50) !important;
     backdrop-filter: blur(10px);
     border-radius: 4px;
@@ -334,4 +334,17 @@ div:has(> [class*="_profilePictureWithName"], > [data-test="beta-features-row-jo
 [class="now-playing-background-image"] { /* personal manual fix */
     width: 200% !important;
     height: 200% !important;   
+}
+
+.hide-ui-button, .translate-button {
+    font-family: nationale, nationale-regular, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    text-transform: inherit;
+    background-color: white;
+    color: black;
+    height: 44;
+    margin: -5px;
 }
