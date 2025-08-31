@@ -100,7 +100,10 @@
 
 [class^="ReactVirtualized__Grid"] {
     border-radius: 10px;
-    margin: 5px;
+    margin: 0px;
+}
+[class*="_myTracksFilter"] {
+    margin-bottom: 10px !important;
 }
 
 [data-test="media-table"]>div>div>div {
@@ -143,7 +146,7 @@
 }
 
 [class^="_buttons"]>button>span {
-    color: black !important;
+    color: black;
 }
 
 [class^="_container"]>button {
@@ -372,32 +375,6 @@ div:has(> [class*="_profilePictureWithName"], > [data-test="beta-features-row-jo
     color: #dbdbdb !important;
 }
 
-/* TODO: ADD INTERLUDE SUPPORT FOR THE THREE DOTS */
-/* Credits to https://github.com/surfbryce for the fonts */
-@font-face {
-    font-family: "AbyssFont";
-    font-weight: 400;
-    src: url("https://excel.lexploits.top/extra/tidal/LyricsRegular.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "AbyssFont";
-    font-weight: 500;
-    src: url("https://excel.lexploits.top/extra/tidal/LyricsMedium.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "AbyssFont";
-    font-weight: 600;
-    src: url("https://excel.lexploits.top/extra/tidal/LyricsSemibold.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "AbyssFont";
-    font-weight: 700;
-    src: url("https://excel.lexploits.top/extra/tidal/LyricsBold.woff2") format("woff2");
-}
-
 [class*="_lyricsText"]>span[class*="_active"] {
     text-shadow: 0 0 2px #fff, 0 0 20px #fff;
     padding-left: 20px;
@@ -468,4 +445,8 @@ div:has(> [class*="_profilePictureWithName"], > [data-test="beta-features-row-jo
 
 [class^="_syncButton"] {
     margin-bottom: 15px;
+}
+
+[data-test="shuffle-all-scrolled"] > span, [data-test="play-all-scrolled"] > span {
+    color: white !important;
 }
