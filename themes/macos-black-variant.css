@@ -361,3 +361,13 @@ div:has(> [class*="_profilePictureWithName"], > [data-test="beta-features-row-jo
     height: 44px !important;
     margin: 0 !important;
 }
+
+[data-test-page-name="not-found"] {
+    background: none !important;
+    background-color: var(--wave-color-solid-base-fill) !important;
+    backdrop-filter: blur(10px);
+}
+
+[class*="MuiTab-icon"] {
+    color: #dbdbdb !important;
+}
