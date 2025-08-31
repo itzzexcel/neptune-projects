@@ -330,3 +330,8 @@ div:has(> [class*="_profilePictureWithName"], > [data-test="beta-features-row-jo
     border: 1px solid var(--wave-color-opacity-contrast-fill-ultra-thin) !important;
     border-radius: 16px;
 }
+
+[class="now-playing-background-image"] { /* personal manual fix */
+    width: 200% !important;
+    height: 200% !important;   
+}
