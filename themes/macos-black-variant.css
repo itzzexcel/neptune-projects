@@ -299,3 +299,34 @@ button[data-test="close-now-playing"]:hover {
     background-image: var(--img);
     filter: blur(10px) brightness(0.4);
 }
+
+[data-test="sidebar"] {
+    background-color: var(--wave-color-solid-base-fill) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--wave-color-opacity-contrast-fill-ultra-thin) !important;  
+}
+
+[data-test="settings-page-general"] > div > div, [data-test="settings-page-account"] > div > div {
+    border: 1px solid var(--wave-color-opacity-contrast-fill-ultra-thin) !important;
+    border-radius: 16px;
+}
+
+[data-test="settings-page-about"] {
+    border: 1px solid var(--wave-color-opacity-contrast-fill-ultra-thin) !important;
+    border-radius: 16px;
+    padding: 5px;
+}
+
+[class*="wave-text-description-demi _licenseTitle_"] {
+    margin-left: 30px;
+}
+
+[data-test="settings-page-general"] > div > h2, [data-test="settings-page-account"] > div > h2
+{
+    margin-left: 5px;
+}
+
+div:has(> [class*="_profilePictureWithName"], > [data-test="beta-features-row-join-beta"]) {
+    border: 1px solid var(--wave-color-opacity-contrast-fill-ultra-thin) !important;
+    border-radius: 16px;
+}
