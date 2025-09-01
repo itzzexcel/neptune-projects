@@ -450,3 +450,8 @@ div:has(> [class*="_profilePictureWithName"], > [data-test="beta-features-row-jo
 [data-test="shuffle-all-scrolled"] > span, [data-test="play-all-scrolled"] > span {
     color: white !important;
 }
+
+[class*="_volumeLabel"] {
+    margin-left: 20px;
+    text-shadow: 0px 0px 20px #fff;
+}
