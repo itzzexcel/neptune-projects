@@ -352,6 +352,13 @@ div:has(> [class*="_profilePictureWithName"], > [data-test="beta-features-row-jo
     margin: -5px;
 }
 
+[data-test="toggle-picture-in-picture"] > * 
+{
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+}
+
 [class*="hide-ui-button"] {
     font-family: var(--market-core-type-font-family);
     font-weight: 600 !important;
@@ -362,7 +369,7 @@ div:has(> [class*="_profilePictureWithName"], > [data-test="beta-features-row-jo
     background-color: white;
     color: black;
     height: 44px !important;
-    margin: 0 !important;
+    margin: 0 -5px !important;
 }
 
 [data-test-page-name="not-found"] {
