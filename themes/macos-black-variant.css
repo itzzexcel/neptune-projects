@@ -339,7 +339,7 @@ div:has(> [class*="_profilePictureWithName"], > [data-test="beta-features-row-jo
     height: 200% !important;   
 }
 
-[class*="translate-button"], #romanize-button {
+[class*="translate-button"], #romanize-button, [data-test="toggle-picture-in-picture"] {
     font-family: nationale, nationale-regular, Helvetica, sans-serif !important;
     font-weight: 600;
     font-size: 14px;
