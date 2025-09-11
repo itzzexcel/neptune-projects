@@ -62,9 +62,9 @@
     color: var(--wave-color-solid-base-brighter);
 }
 
-[class^="_wave-badge-color-max"] {
+[class^="_wave-badge-color-max"], [data-test="media-state-low"], [data-test="media-state-high"], [data-test="media-state-high"] {
     color: black !important;
-    background-color: var(--wave-color-solid-accent-fill);
+    background-color: var(--wave-color-solid-accent-fill) !important;
     border-radius: 3px;
 }
 
