@@ -257,7 +257,7 @@ button[data-test="close-now-playing"]:hover {
 
 [class^="__NEPTUNE_PAGE"],
 [data-test="main"] {
-    margin-top: 83px;
+    
 }
 
 [data-test="button-desktop-release-notes"],
@@ -476,9 +476,9 @@ div:has(> [class*="_profilePictureWithName"], > [data-test="beta-features-row-jo
 }
 
 [class*="_topSpace"] {
-    height: 0 !important;
+    height: 83px !important;
 }
 
 [data-test="artist-profile-header"] {
-    margin-top: 60px !important;
+    margin-top: -20px !important;
 }
