@@ -432,6 +432,7 @@ div:has(> [class*="_profilePictureWithName"], > [data-test="beta-features-row-jo
 [data-current="true"] {
     text-shadow: 0 0 2px #fff, 0 0 20px #fff;
     transition-duration: 0.7s !important;
+    padding-left: 20px;
 }
 
 [data-current="false"] {
