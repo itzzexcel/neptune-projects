@@ -257,7 +257,7 @@ button[data-test="close-now-playing"]:hover {
 
 [class^="__NEPTUNE_PAGE"],
 [data-test="main"] {
-    
+    background-color: var(--wave-color-solid-base-fill) !important;
 }
 
 [data-test="button-desktop-release-notes"],
