@@ -517,7 +517,7 @@ div:has(> [class*="_profilePictureWithName"], > [data-test="beta-features-row-jo
 
 
 [data-test="artist-profile-header"] {
-    margin-top: 20px !important;
+    margin-top: 0px !important;
 }
 
 [class*="_title_"][class*="_smallText_"] {
