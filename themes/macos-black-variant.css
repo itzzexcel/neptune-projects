@@ -246,7 +246,9 @@ button[data-test="close-now-playing"]:hover {
     border: 1px solid var(--wave-color-opacity-contrast-fill-ultra-thin) !important;
 }
 
-[class*="_newSidebar"],
+
+[data-test="main-layout-sidebar-wrapper"],
+[class*="_newSidebar"], [data-test="sidebar"],
 [class*="_newSidebar"]>div>[class*="_sectionHeader"]
 {
     backdrop-filter: blur(12px) saturate(1.3) brightness(0.7);
